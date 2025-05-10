@@ -1,7 +1,7 @@
 const { bot, isUrl, getImgUrl, lang } = require('../lib/')
 bot(
   {
-    pattern: 'upload ?(.*)',
+    pattern: 'download?(.*)',
     desc: lang.plugins.upload.desc,
     type: 'download',
   },
