@@ -14,7 +14,7 @@ bot(
     pattern: 'contacts ?(.*)',
     desc: 'contact manager',
     type: 'whatsapp',
-  },
+  },.
   async (message, match) => {
     if (match === 'import') {
       if (
